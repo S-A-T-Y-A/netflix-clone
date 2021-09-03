@@ -115,6 +115,7 @@
   left: 0;
   right: 0;
   border-top: 10px solid grey;
+  overflow-x: hidden;
 }
 .d-flex {
   flex-wrap: wrap !important;
