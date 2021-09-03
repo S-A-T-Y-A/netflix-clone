@@ -196,6 +196,113 @@
   position: absolute;
   top: 0%;
 }
+.frequent-sec{
+  width: 90% !important;
+  height: 700px;
+}
+
+.question{
+  width: 60%;
+  
+}
+.f-headind{
+  font-size: 2em;
+  font-weight:600 ;
+}
+.fn-10{
+  font-size: 1.2em;
+}
+.details .d-flex{
+  flex-wrap: wrap !important;
+}
+.call h5{
+  font-size: 1.5em;
+}
+.call-hover:hover{
+  color: #e50914;
+  cursor:pointer;
+}
+.list-item-con{
+  flex-basis: 180px;
+}
+.list-item-con li{
+  list-style-type: none;
+}
+.list-item-con li a{
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.list-item-con li a:hover{
+  color:#e50914 !important;
+}
+.last-btn{
+  border: 1px solid rgba(109, 107, 107, 0.4);
+  width: fit-content;
+  
+}
+.last-btn:hover{
+  background-color: #e50914;
+  color: white !important;
+  cursor: pointer;
+}
+
+.lang-btn:hover{
+  text-decoration: none !important;
+  background-color: #e50914;
+  
+}
+.btn-sign:hover{
+  text-decoration: none !important;
+  background-color: black;
+}
+.last-btn-a{
+  font-size: 14px !important;
+  color: grey;
+}
+.last-btn-a:hover{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 900px..... */
 @media (max-width: 900px) {
@@ -264,6 +371,21 @@
   }
   .image-2 {
     width: 60%;
+  }
+  .question{
+    width: 70%;
+    
+  }
+}
+/* 570px */
+@media(max-width:570px){
+  .question{
+    width: 80%;
+    
+  }
+  .f-headind{
+    font-size: 1.7em;
+    font-weight:600 ;
   }
 }
 /* 500px.............. */
@@ -343,6 +465,24 @@
   .content p {
     font-size: 0.7em;
     font-weight: 600;
+  }
+  .question{
+    width: 100%;
+    
+  }
+  .call h5{
+    font-size: 1.1em;
+  }
+  
+  .list-item-con{
+    flex-basis: 150px;
+  }
+  .list-item-con li{
+    padding: 0.2em;
+    list-style-type: none;
+  }
+  .list-item-con li a{
+    font-size: 0.8em;
   }
 }
 
@@ -446,6 +586,30 @@
     width: 40px !important;
     height: 60%;
   }
+  .question{
+    width: 100%;
+    
+  }
+  
+  .fn-10{
+    font-size: 0.7em;
+  }
+  .f-headind{
+    font-size: 1.2em;
+    font-weight:500 ;
+  }
+}
+/* 366px */
+@media(max-width:365px){
+  .list-item-con{
+    flex-basis: 100px;
+  }
+  .call h5{
+    font-size: 0.9em;
+    text-align: left !important;
+    margin-left: -20px !important;
+  }
+
 }
 /* 320px...................... */
 @media (max-width: 330px) {
@@ -485,6 +649,17 @@
     font-size: 0.7em;
     font-weight: 600;
   }
+  .f-headind{
+    font-size: 0.8em;
+    font-weight:400 ;
+  }
+  .list-item-con{
+    flex-basis: 90px;
+  }
+  .last-btn-a{
+    font-size: 10px !important;
+  }
+  
 }
 @media (max-width: 790px) {
   .image {

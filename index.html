@@ -8,10 +8,12 @@
     <title>Netflix Clone</title>
     <link rel="shortcut icon" href="img/Netflix title logo.ico" type="image/x-icon">
     <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+        integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-<!-- bootsrap cdn -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- bootsrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <!-- <video class="our-story-card-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4"></video>
@@ -19,109 +21,233 @@
 
 <body class="bg-black">
     <section class="">
-       <div class="mainbg-sec container-fluid ">
-           <div class="mainbg-con">
-               <img src="img/mainbg.jpg" class="mainbg grey-line"  alt="">
-           </div>
-       </div>
-      <div class="container-fluid mt-2 d-flex justify-content-between align-items-center topnav">
-        <div class="logo d-flex justify-content-start">
-            <span class="svg-nfLogo our-story-logo nfLogo" data-uia="netflix-header-svg-logo-noclick"><svg  class="netflix-name" viewBox="0 0 111 30" class="svg-icon svg-icon-netflix-logo" focusable="false"><g id="netflix-logo"><path d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z" id="Fill-14"></path></g></svg></span>
-         </div>
-      
-       <div class="right-ele">
-           <ul class="d-flex justify-content-between navbar-ul mt-2 ">
-               <li class=" btn"> <a href="#" class="td-none text-white btn-lang py-2 px-3"><span></span>English<span></span></a></li>
-               <li class="btn "><a href="#" class="td-none btn-sign py-2 px-3 text-white">Sign in</a></li>
-           </ul>
-       </div>
-      </div>
-      <div class="container-fluid sec-1-content p-3 text-center">
-          <h1 class="text-light my-1  main-title">Unlimited movies,TV <br>   shows and more.</h1>
-          <h2 class="text-light my-1  second-title">Watch anywhere. Cancel anytime.</h2>
-          <h3 class="text-light mt-5 third-title">Ready to watch? Enter your email to create or restart your membership.</h3>
-          <div class="email mt-3">
-              <input type="email" class="py-1 px-3 text-dark" name="" placeholder="enter email ...." id="">
-              <div class="email-btn text-white d-flex align-items-center justify-content-center px-2"> Get Started ></div>
-          </div>
-      </div>
+        <div class="mainbg-sec container-fluid ">
+            <div class="mainbg-con">
+                <img src="img/mainbg.jpg" class="mainbg grey-line" alt="">
+            </div>
+        </div>
+        <div class="container-fluid mt-2 d-flex justify-content-between align-items-center topnav">
+            <div class="logo d-flex justify-content-start">
+                <span class="svg-nfLogo our-story-logo nfLogo" data-uia="netflix-header-svg-logo-noclick"><svg
+                        class="netflix-name" viewBox="0 0 111 30" class="svg-icon svg-icon-netflix-logo"
+                        focusable="false">
+                        <g id="netflix-logo">
+                            <path
+                                d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z"
+                                id="Fill-14"></path>
+                        </g>
+                    </svg></span>
+            </div>
+
+            <div class="right-ele">
+                <ul class="d-flex justify-content-between navbar-ul mt-2 ">
+                    <li class=" btn "> <a href="#"
+                            class="td-none text-white btn-lang py-2 px-1 lang-btn"><span><i class="bi bi-globe"></i></span> English <span><i class="bi bi-caret-down"></i></span></a></li>
+                    <li class="btn "><a href="#" class="td-none btn-sign py-2 px-3 text-white">Sign in</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid sec-1-content p-3 text-center">
+            <h1 class="text-light my-1  main-title">Unlimited movies,TV <br> shows and more.</h1>
+            <h2 class="text-light my-1  second-title">Watch anywhere. Cancel anytime.</h2>
+            <h3 class="text-light mt-5 third-title">Ready to watch? Enter your email to create or restart your
+                membership.</h3>
+            <div class="email mt-3">
+                <input type="email" class="py-1 px-3 text-dark" name="" placeholder="enter email ...." id="">
+                <div class="email-btn text-white d-flex align-items-center justify-content-center px-2"> Get Started >
+                </div>
+            </div>
+        </div>
 
     </section>
 
 
 
-    <section >
+    <section>
         <div class="second-sec text-white  ">
-           <div class="  d-flex justify-content-evenly align-items-center my-5 px-5 ">
-               <div class="content px-5">
-                   <h1>Enjoy on your TV.</h1>
-                   <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
-               </div>
-               <div class=" image ">
-                   <img src="img/tv.png" alt="">
-                   <video class="vedio" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4"></video>
-                  
-             </div>
-             
+            <div class="  d-flex justify-content-evenly align-items-center my-5 px-5 ">
+                <div class="content px-5">
+                    <h1>Enjoy on your TV.</h1>
+                    <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+                <div class=" image ">
+                    <img src="img/tv.png" alt="">
+                    <video class="vedio" autoplay="" playsinline="" muted="" loop="">
+                        <source
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                            type="video/mp4">
+                    </video>
+
+                </div>
+
             </div>
             <div class="grey-line"></div>
-           <div class=" d-flex justify-content-evenly align-items-center  my-5 p-5  ">
-               
-               <div class=" image ">
-                   <img src="img/mobile.jpg" alt="">
-                   <div class="download px-3">
-                       <div class="down-con d-flex justify-content-start align-items-center">
-                           <img src="img/stranger things.png" alt="">
-                           <h4>Stranger Things <br> <span class="text-primary">Downloading..</span></h4>
+            <div class=" d-flex justify-content-evenly align-items-center  my-5 p-5  ">
 
-                       </div>
-                       <img class="down-img" src="img/download-icon.gif" alt="">
-                   </div>
-                   
-                   
+                <div class=" image ">
+                    <img src="img/mobile.jpg" alt="">
+                    <div class="download px-3">
+                        <div class="down-con d-flex justify-content-start align-items-center">
+                            <img src="img/stranger things.png" alt="">
+                            <h4>Stranger Things <br> <span class="text-primary">Downloading..</span></h4>
+
+                        </div>
+                        <img class="down-img" src="img/download-icon.gif" alt="">
+                    </div>
+
+
                 </div>
                 <div class="content ">
-                 <h1>Download your shows to watch offline.</h1>
-                 <p>Save your favourites easily and always have something to watch.</p>
-             </div>
-             </div>
-               
-           <div class="grey-line"></div>
-           <div class=" d-flex justify-content-evenly align-items-center  my-5 p-5 ">
-               <div class="content">
-                   <h1>Watch everywhere.</h1>
-                   <p>Stream unlimited movies and TV shows on your phone, laptop, and TV.</p>
-               </div>
-               <div class=" image image-2 mx-5 ">
-                   <img src="img/system.png" alt="">
-                   <video class="vedio-2" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4"></video>
-                  
-             </div>
-               
-           </div>
-           <div class="grey-line"></div>
-           <div class=" d-flex justify-content-evenly align-items-center  my-5 p-5">
-               <div class=" image ">
-                   <img src="img/children.png" alt="">
-                  
-             </div>
-               <div class="content">
-                   <h1>Create profiles for children..</h1>
-                   <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
-               </div>
-               
-           </div>
-           <div class="grey-line"></div>
+                    <h1>Download your shows to watch offline.</h1>
+                    <p>Save your favourites easily and always have something to watch.</p>
+                </div>
+            </div>
+
+            <div class="grey-line"></div>
+            <div class=" d-flex justify-content-evenly align-items-center  my-5 p-5 ">
+                <div class="content">
+                    <h1>Watch everywhere.</h1>
+                    <p>Stream unlimited movies and TV shows on your phone, laptop, and TV.</p>
+                </div>
+                <div class=" image image-2 mx-5 ">
+                    <img src="img/system.png" alt="">
+                    <video class="vedio-2" autoplay="" playsinline="" muted="" loop="">
+                        <source
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+                            type="video/mp4">
+                    </video>
+
+                </div>
+
+            </div>
+            <div class="grey-line"></div>
+            <div class=" d-flex justify-content-evenly align-items-center  my-5 p-5">
+                <div class=" image  ">
+                    <img src="img/children.png" alt="">
+
+                </div>
+                <div class="content">
+                    <h1>Create profiles for children..</h1>
+                    <p>Send children on adventures with their favourite characters in a space made just for them—free
+                        with your membership.</p>
+                </div>
+
+            </div>
+            <div class="grey-line"></div>
+            <!-- frequently asked questions -->
+            <section>
+
+                <div class="container frequent-sec m-auto p-3 text-center justify-content-center ">
+                    <h1 class="my-2 p-1 fz-2 text-white f-headind ">Frequently Asked Qyestions</h1>
+                    <div class="container m-auto ques-outer-con    my-5 ">
+                        <div
+                            class="question d-flex justify-content-between align-items-center bg-dark px-3 py-2  my-2 mx-auto ">
+                            <div>
+                                <h3 class="text-white pt-1  fn-10">What is Netflix?</h3>
+                            </div>
+                            <div><i class="bi bi-plus-lg text-white  fn-10"></i></div>
+                        </div>
+                        <div
+                            class="question d-flex justify-content-between align-items-center bg-dark px-3 py-2 mt-2 mx-auto">
+                            <div>
+                                <h3 class="text-white pt-1 fn-10">How much does Netflix cost?</h3>
+                            </div>
+                            <div><i class="bi bi-plus-lg text-white fn-10"></i></div>
+                        </div>
+                        <div
+                            class="question d-flex justify-content-between align-items-center bg-dark px-3 py-2 mt-2 mx-auto">
+                            <div>
+                                <h3 class="text-white pt-1 fn-10">Where can i watch?</h3>
+                            </div>
+                            <div><i class="bi bi-plus-lg text-white fn-10"></i></div>
+                        </div>
+                        <div
+                            class="question d-flex justify-content-between align-items-center bg-dark px-3 py-2 mt-2 mx-auto">
+                            <div>
+                                <h3 class="text-white pt-1 fn-10">How do i cancle?</h3>
+                            </div>
+                            <div><i class="bi bi-plus-lg text-white fn-10"></i></div>
+                        </div>
+                        <div
+                            class="question d-flex justify-content-between align-items-center bg-dark px-3 py-2 mt-2 mx-auto">
+                            <div>
+                                <h3 class="text-white pt-1 fn-10">What can i watch on Netflix?</h3>
+                            </div>
+                            <div><i class="bi bi-plus-lg text-white fn-10"></i></div>
+                        </div>
+                        <div
+                            class="question d-flex justify-content-between align-items-center bg-dark px-3 py-2 mt-2 mx-auto">
+                            <div>
+                                <h3 class="text-white pt-1 fn-10">Is Netflix good for kids?</h3>
+                            </div>
+                            <div><i class="bi bi-plus-lg text-white fn-10"></i></div>
+                        </div>
+                    </div>
+
+
+                    <div class="bottom-email text-center">
+                        <h3 class="text-light mt-5 third-title">Ready to watch? Enter your email to create or restart your
+                            membership.</h3>
+                        <div class="email my-3">
+                            <input type="email" class="py-1 px-3 text-dark" name="" placeholder="enter email ...." id="">
+                            <div class="email-btn text-white d-flex align-items-center justify-content-center px-2"> Get
+                                Started ></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </section>
+            <div class="grey-line"></div>
+            <section>
+            <div class="container py-3 px-5 m-2">
+                <div class="call text-dark">
+                    <h5 class="d-flex">Questions?<span class="call-hover">Call 000-800-040-1843</span></h4>
+                </div>
+                <div class="details mt-5">
+                    <ul class="d-flex justify-content-between align-items-center row">
+                        <div class="list-item-con"> 
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">FAQ</a></li>
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Investor Relations</a></li>
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Privacy</a></li>
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Speedtext</a></li>
+                            </div>
+                        <div class="list-item-con">
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Help Center</a></li>
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Jobs</a></li>
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Cookie Preferences</a></li>
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Legal Notices</a></li>
+                            </div>
+                        <div class="list-item-con">
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Account</a></li>
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Ways to Watch</a></li>
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Only on Netflix</a></li>
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Corporate Information</a></li>
+                            </div>
+                        <div class="list-item-con">
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Media Centre</a></li>
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">Terms of use</a></li>
+                            <li class="list-item"><a class="text-decoration-none text-dark" href="#">contact us</a></li>
+                            
+                        </div>
+                       
+                        
+                        
+                        
+                    </ul>
+                </div>
+                <div class="last-btn  py-1 px-2 mx-2 my-3"> <a href="#" class=" td-none last-btn-a"> <span><i class="bi bi-globe"></i></span> English <span><i class="bi bi-caret-down"></i></span></a></div>
+                <p class="text-dark mx-2">Netflix India</p>
+            </div>
             
             
+            </section>
         </div>
     </section>
-    
-   
+
+    <!-- contact section -->
+
 </body>
 
 </html>
-
-
-
-
