@@ -226,7 +226,7 @@
   flex-basis: 180px;
 }
 .list-item-con li{
-  list-style-type: none;
+  list-style-type: none !important;
 }
 .list-item-con li a{
   font-size: 1.1em;
@@ -257,7 +257,7 @@
 }
 .last-btn-a{
   font-size: 14px !important;
-  color: grey;
+  color: grey !important;
 }
 .last-btn-a:hover{
   text-decoration: none !important;
